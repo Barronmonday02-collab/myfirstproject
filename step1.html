@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>de Barrons university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?
+        family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="step1.html"><img src="IMAGE/edu.png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>DE BARRONS International university</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit pariatur
+                temporibus ex ab quaerat unde. <br>Architecto in voluptas consequatur assumenda.
+            </p>
+            <a href="" class="hero-btn">visit us to kmow more</a>
+
+        </div>
+    </section>
+
+    <section class="COURSE">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, praesentium.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediat</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptas corrupti explicabo eaque molestias saepe, eveniet deserunt,
+
+                    ut quia eius incidunt architecto qui aspernatur voluptates unde ex.
+                    Amet quo!</p>
+            </div>
+             <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptas corrupti explicabo eaque molestias saepe, eveniet deserunt,
+
+                    ut quia eius incidunt architecto qui aspernatur voluptates unde ex.
+                    !</p>
+            </div>
+             <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptas corrupti explicabo eaque molestias saepe, eveniet deserunt,
+
+                    ut quia eius incidunt architecto qui aspernatur voluptates unde ex.
+                    Amet quo !</p>
+            </div>
+        </div>
+    </section>
+<!-- campus -->
+<section class="campus">
+    <h1>Our Global Campus</h1> 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, perferendis!</p>
+    <div class="row2">
+      <div class="campus-col">
+       <img src="IMAGE/cam2.jpg">
+        <div class="layer">
+            <h3>LONDON</h3>
+        </div>
+      </div>
+    </div>
+</section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

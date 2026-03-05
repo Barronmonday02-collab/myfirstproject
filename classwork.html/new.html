@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flexbox Beginner Demo</title>
+
+<style>
+/* ===== BASIC RESET ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+/* ===== FLEX NAVBAR ===== */
+/* Solves: horizontal alignment + spacing */
+.navbar {
+  display: flex;                     /* turn on flex */
+  flex-shrink: none;
+  justify-content: space-between;     /* space items */
+  align-items: center;                /* vertical center */
+  background: #0d6efd;
+  padding: 15px 30px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;                     /* flex inside flex */
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ===== FLEX CARDS ===== */
+/* Solves: wrapping + responsive rows */
+.cards {
+  display: flex;
+  flex-wrap: wrap;                   /* allow wrap */
+  gap: 20px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 250px;                   /* grow | shrink | basis */
+  max-width: 300px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+  text-align: center;
+}
+
+/* ===== FLEX CENTERING ===== */
+/* Solves: perfect centering */
+.center-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background: #198754;
+  color: white;
+  margin: 30px;
+  border-radius: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- FLEX NAVBAR -->
+<div class="navbar">
+  <h2>MySite</h2>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<!-- FLEX CARDS -->
+<div class="cards">
+  <div class="card">
+    <img src="https://picsum.photos/400/300?1">
+    <div class="card-content">
+      <h3>Card One</h3>
+      <p>Flex wrap</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://picsum.photos/400/300?2">
+    <div class="card-content">
+      <h3>Card Two</h3>
+      <p>Flex grow</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://picsum.photos/400/300?3">
+    <div class="card-content">
+      <h3>Card Three</h3>
+      <p>Responsive</p>
+    </div>
+  </div>
+</div>
+
+<!-- FLEX CENTER -->
+<div class="center-box">
+  <h2>Perfectly Centered with Flexbox</h2>
+</div>
+
+</body>
+</html>

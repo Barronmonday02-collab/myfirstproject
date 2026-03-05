@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barron Portfolio</title>
+
+<style>
+
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0b0f1a;
+color:white;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 8%;
+background:#0b0f1a;
+position:sticky;
+top:0;
+}
+
+nav h2{color:#4da6ff;}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:space-between;
+padding:80px 8%;
+}
+
+.hero-text{
+max-width:520px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+opacity:.8;
+margin-bottom:25px;
+}
+
+.btn{
+padding:14px 28px;
+border:none;
+border-radius:10px;
+margin-right:10px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.primary{background:#4da6ff;color:white;}
+.secondary{background:white;color:black;}
+
+.hero img{
+width:380px;
+border-radius:20px;
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 8%;
+}
+
+.title{
+font-size:32px;
+margin-bottom:40px;
+text-align:center;
+}
+
+/* SERVICES */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:#151b2e;
+padding:30px;
+border-radius:18px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+/* PORTFOLIO */
+
+.portfolio img{
+width:100%;
+border-radius:15px;
+}
+
+.project{
+position:relative;
+overflow:hidden;
+}
+
+.project span{
+position:absolute;
+bottom:0;
+left:0;
+right:0;
+background:#0009;
+padding:15px;
+text-align:center;
+opacity:0;
+transition:.3s;
+}
+
+.project:hover span{opacity:1;}
+
+/* PREMIUM */
+
+.premium{
+text-align:center;
+background:#11162a;
+border-radius:20px;
+padding:60px 20px;
+}
+
+.lock{
+font-size:60px;
+margin:20px 0;
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+}
+
+.whatsapp{
+background:#25D366;
+padding:16px 35px;
+border-radius:12px;
+display:inline-block;
+margin-top:20px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+opacity:.6;
+}
+/*===== MOBILE ===== */
+
+@media (max-width: 768px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero img{
+width:260px;
+margin-top:40px;
+}
+
+.hero h1{
+font-size:32px;
+}
+
+nav{
+flex-direction:column;
+gap:10px;
+text-align:center;
+}
+
+}
+
+/* ===== SMALL PHONES ===== */
+
+@media (max-width:480px){
+
+.hero h1{
+font-size:26px;
+}
+
+.btn{
+width:100%;
+margin:8px 0;
+}
+
+}
+
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+<h2>Barron</h2>
+<div>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#work">Work</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+
+<div class="hero-text">
+<h1>I Build Stunning Websites & Designs</h1>
+
+<p>
+Frontend Developer • Video Editor • Animator • Logo Designer
+</p>
+
+<button class="btn primary">View Work</button>
+<button class="btn secondary">Hire Me</button>
+</div>
+
+<img src="https://picsum.photos/500/500" alt="profile">
+
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+
+<h2 class="title">My Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>💻 Web Development</h3>
+<p>Modern responsive websites for business</p>
+</div>
+
+<div class="card">
+<h3>🎬 Video Editing</h3>
+<p>Ads, reels and promotional videos</p>
+</div>
+
+<div class="card">
+<h3>🎨 Logo Design</h3>
+<p>Professional branding & identity</p>
+</div>
+
+<div class="card">
+<h3>✨ Animation</h3>
+<p>Motion graphics and explainers</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- PORTFOLIO -->
+<section id="work">
+
+<h2 class="title">My Work</h2>
+
+<div class="cards portfolio">
+
+<div class="project">
+<img src="https://picsum.photos/400/300?1">
+<span>Website Project</span>
+</div>
+
+<div class="project">
+<img src="https://picsum.photos/400/300?2">
+<span>Logo Design</span>
+</div>
+
+<div class="project">
+<img src="https://picsum.photos/400/300?3">
+<span>Video Ad</span>
+</div>
+
+</div>
+
+</section>
+
+<!-- PREMIUM -->
+<section>
+
+<div class="premium">
+
+<h2>Premium Tutorials</h2>
+
+<div class="lock">🔒</div>
+
+<p>Subscribe to watch premium design & trading tutorials</p>
+
+<br>
+<button class="btn primary">Subscribe Now</button>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+
+<div class="contact">
+
+<h2 class="title">Contact Me</h2>
+
+<p>Need a website or design?</p>
+
+<a class="whatsapp" href="https://wa.me/2349136112942">
+Chat on WhatsApp
+</a>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 Barron Smart
+</footer>
+
+</body>
+</html>

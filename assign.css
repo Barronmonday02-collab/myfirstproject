@@ -1,0 +1,331 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+
+}
+.navigation{
+position: fixed;
+    width: 100%;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: 2em;
+    
+
+
+}
+
+.headlogo {
+    padding-left: 1.5em;
+    font-size: 1.5em;
+
+}
+
+.headbtn {
+    border: none;
+    width: 5em;
+    height: 2em;
+    border-radius: 1em;
+    background-color: yellowgreen;
+    font-size: 2em;
+
+}
+
+.headbtn:hover {
+    cursor: pointer;
+    background: wheat;
+
+
+}
+
+.headerflex {
+    display: flex;
+    padding-left: 15em;
+    gap: 5em;
+    padding-top: 13em;
+    align-items: center;
+    background: blueviolet;
+
+
+
+}
+
+.headerflex img {
+    width: 20em;
+    height: 20em;
+    padding-left: 5em;
+}
+
+.searhbar {
+    border: 1px solid black;
+    padding: 1.5em;
+    border-radius: 1em;
+    background: rgb(243, 240, 240);
+
+    
+}
+
+.searhbtn {
+    padding-left: 40em;
+    padding-top: 1.1em;
+
+}
+
+.searchsection {
+    background-color: blueviolet;
+    padding-bottom: 2em;
+    
+}
+
+.hovering:hover {
+    box-shadow: 0 0 15px 0 green;
+    background: yellowgreen;
+    cursor: pointer;
+}
+
+.foodlist {
+    text-align: center;
+}
+
+.foodlist p {
+    background-color: blueviolet;
+}
+
+.foodlist1 {
+    display: flex;
+    gap: 2em;
+    text-align: center;
+    align-items: center;
+    padding-left: 19em;
+    padding-bottom: 2em;
+}
+
+.foodlist2 {
+    display: flex;
+    gap: 2em;
+    text-align: center;
+    align-items: center;
+    padding-left: 19em;
+}
+
+.foodlist1 img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+
+}
+
+.foodlist2 img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+.Deliverysection {
+    text-align: center;
+    padding-top: 3em;
+    padding-bottom: 2em;
+
+}
+
+.deliveryrow {
+    display: flex;
+    text-align: center;
+    gap: 4em;
+    padding-left: 5em;
+
+}
+
+.deliveryrow p {
+    font-size: small;
+    padding-top: 2em;
+}
+
+.deliveryrow img {
+    height: 10em;
+}
+
+.explore {
+    padding: 1em;
+    font-size: 0.9em;
+    background: greenyellow;
+    border-radius: 2em;
+    border: none;
+
+
+}
+
+/* .expb{
+    text-align: center;
+} */
+.explore:hover {
+    background: yellowgreen;
+}
+
+.city {
+    text-align: center;
+    padding: 2em;
+    background: blueviolet;
+}
+
+.cityintern {
+    padding: 1em;
+}
+
+.citystyle {
+    font-size: 1em;
+    background: whitesmoke;
+    border: none;
+    padding: 0.5em;
+    font-size: 0.5;
+    border-radius: 10px;
+
+}
+
+.citystyle:hover {
+    cursor: pointer;
+    background: gray;
+}
+
+.gap {
+    gap: 1em;
+    display: flex;
+    text-align: center;
+    padding-left: 20em;
+    border: none;
+}
+
+.appsec {
+    display: flex;
+    text-align: center;
+}
+
+.pathnering {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10em;
+    gap: 3em;
+
+}
+
+.pathnering img {
+    width: 13em;
+    height: 13em;
+}
+
+.pathnering p {
+    font-size: 0.3;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.pathneringintro {
+    text-align: center;
+    background: blueviolet;
+}
+
+.registerbtn {
+    padding: 1em;
+    background: greenyellow;
+    border-radius: 2em;
+    border: none;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.registerbtn:hover {
+    cursor: pointer;
+    background: gainsboro;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    
+}
+
+
+.footflex {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    text-align: center;
+    background: black;
+    padding: 2em;
+    
+
+
+}
+
+.dnd {
+    padding-top: 2em;
+}
+
+.foootflex p {
+    font-weight: light;
+
+}
+
+.foootflex p:hover{
+    cursor: pointer;
+}
+
+.footlogo {
+    background: black;
+    color: aliceblue;
+    padding-left: 6em;
+    padding-top: 2em;
+    text-shadow: 2px 2px blueviolet;
+
+}
+.dropdown{
+    background: black;
+    color: aliceblue;
+    border: none;
+    
+    
+}
+.dropdown:hover{
+    /* color: rgb(202, 248, 248); */
+    cursor: pointer;
+     text-decoration-line:underline ;
+    text-decoration-style: white;
+
+}
+
+
+
+.catalog{
+    background: black;
+    color: aliceblue;
+    padding-left: 4em;
+    padding-top: em;
+    gap: 2em;
+    padding-bottom: 3em;
+    
+
+}
+.lang{
+    padding-left: 4em;
+    background: black;
+    color: aliceblue;
+    padding-bottom: 4em;
+
+}
+.langbtn{
+    background: black;
+    padding: 1em;
+    width: 15em;
+    font-size: 0.7em;
+    text-align: center;
+    color: aliceblue;
+}
