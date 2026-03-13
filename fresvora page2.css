@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.page2{
+    display: grid;
+    align-items: center;
+    background-color:#f7f9f4f2 ;
+    padding-bottom: 30px;
+    grid-row-gap: 12px;
+    width: 100%;
+}
+.clas{
+    display: grid;  
+    align-items: center;
+    background-color:#f7f9f4f2 ;
+    padding-bottom: 30px;
+    grid-row-gap: 12px;
+    place-items: center;
+    margin-bottom: 50px;
+}
+.our{
+    background-color:rgba(247, 249, 244, 0.95) ;
+    padding-top: 30px;
+}
+.ourpro{
+    display: grid;
+    text-align: center;
+}
+.o{
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.ou{
+    width: 200px;
+    font-size: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgba(107, 174, 30, 0.95) ;
+}
+.eve{
+    color:rgb(69, 97, 27) ;
+}
+.ryt{
+    color: rgba(107, 174, 30, 0.95) ;
+}
+.hin{
+    color: rgb(106, 150, 39)  ;
+}
+.aul{
+    color: rgb(94, 131, 39) ;
+}
+.fro{
+    margin-top: 10px;
+}
+.from{
+    color: rgb(125, 123, 123);
+    font-size: 13px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.allpro{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.allp{
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding: 7px 18px;
+    color: white;
+    border-radius: 18px;
+    background-color:rgb(69, 97, 27) ;
+    cursor: pointer;
+}
+.all{
+    font-size: 12px;
+    font-weight: bold;
+   border: 1px solid rgb(215, 213, 213);
+    padding: 7px 18px;
+    color: rgb(125, 123, 123);
+    border-radius: 18px;
+    background-color: white ;
+    cursor: pointer;
+}
+.freshfish{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-column-gap: 12px;
+    margin-top: 15px;
+}
+.foodsea{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.food{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(106, 150, 39)  ; 
+    font-weight: bold;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 18px;
+    background-color:rgba(241, 250, 229, 0.95) ;
+    cursor: pointer;
+}
+.fish{
+    font-size: 18px;
+    color:rgb(69, 97, 27) ;
+}
+.daily{
+    color: rgb(125, 123, 123);
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.able{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.available{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(3, 168, 17, 0.979);
+    padding: 4px 10px;
+    border-radius: 15px;
+    background-color: rgb(243, 247, 243);
+}
+.tomatoes{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-column-gap: 12px;
+    align-items: center;
+}
+.carrot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 12px;
+}
+.orderm{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    padding: 7px 18px;
+    color: white;
+    border-radius: 18px;
+    background-color: rgba(107, 174, 30, 0.95) ;
+    cursor: pointer;
+}
+.freshsea,.poul,.onion,.pepper,.tin,.cabbage,.oil,
+.pantry,.crunchy,.prawn,.clam{
+    text-align: center;
+    background-color: white;
+    border-radius: 13px;
+}
+.more{
+    text-align: center;
+    background-color: white;
+}
