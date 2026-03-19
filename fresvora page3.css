@@ -1,0 +1,149 @@
+
+.agree{
+    color:  rgb(84, 80, 80);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+.havp{
+    color: rgb(125, 123, 123);
+    font-size: 13px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+   .sn{
+
+    text-decoration: none;
+    color:rgb(69, 97, 27) ;
+    font-weight: bold;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.page3 {
+    display: grid;
+    background-color: #f7f9f4f2;
+    min-height: 100vh;
+    place-items: center; 
+}
+
+.margin {
+    padding: 40px; 
+    border-radius: 12px;
+    box-shadow: inset 50px 50px 300px rgba(225, 244, 201, 0.95);
+    width: 95%;
+    max-width: 500px;
+}
+
+/* --- HEADER SECTION --- */
+.pa {
+    display: grid; 
+    text-align: left;           
+    width: 100%;
+    max-width: 995px;          
+    margin: 0 auto 20px auto;  
+}
+
+.get {
+    color: rgba(107, 174, 30, 0.95);
+    font-size: 10px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+.create {
+    color: rgb(69, 97, 27);
+    font-size: 32px;           
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.fres {
+    color: rgb(125, 123, 123);
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+/* --- FORM BODY --- */
+.for {
+    display: grid;
+    gap: 15px; 
+}
+
+.first {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    text-align: left;           
+    width: 100%;
+    max-width: 995px;          
+    margin: 0 auto 5px auto;  
+    grid-column-gap: 10px;
+}
+
+.fnn, .fnnn, .fnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    width: 100%;
+    max-width: 995px;
+    margin: 0 auto;
+    color: rgb(84, 80, 80);
+    font-size: 10px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+
+}
+
+.idong, .idonge, .you, .individual, .ac {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+/* --- CHECKBOX & TERMS (UPDATED) --- */
+.term {
+    display: grid;
+    text-align: left;           
+    width: 100%;
+    max-width: 995px;         
+    margin: 10px auto;        
+}
+
+.agree {
+    font-size: 13px;
+    color: rgb(84, 80, 80);
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;      
+    gap: 8px;               
+}
+
+.che {
+    margin: 0;            
+}
+
+/* --- BUTTON & FOOTER --- */
+.ac {
+    background-color: rgba(107, 174, 30, 0.95);
+    color: white;
+    border: none;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.hav {
+    text-align: center; 
+    width: 100%;
+    margin-top: 15px;
+}
