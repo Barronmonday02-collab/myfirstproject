@@ -14,7 +14,6 @@
 .nav-links{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-  /*  gap: 300px;*/
     background-color:white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -128,7 +127,6 @@
     color: rgb(125, 123, 123);
     font-size: 13px;
     line-height: 20px;
-   /* line-height: 20px;*/
 }
 .sea{
     display: grid;
