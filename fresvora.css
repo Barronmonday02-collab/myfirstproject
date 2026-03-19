@@ -252,4 +252,15 @@
     background: #7DC52B;
     opacity: 0.7;
 }
+@media(max-width:762px)
+{
+.Quality-container {
+    
+    display: grid;
+    grid-template-rows: repeat(2 2fr);
+    margin: 0;
+    padding: 0;
+}
+ 
+}
 

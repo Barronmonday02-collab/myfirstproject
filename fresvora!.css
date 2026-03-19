@@ -278,6 +278,9 @@
         justify-content: right;
         font-size: 12px;
     }
+    .fheading{
+        font-size: 12px;
+    }
 
     .aspvp {
         display: grid;
@@ -290,6 +293,9 @@
 
 
 
+    }
+    .frezp{
+        font-size: 10px;
     }
 
     .all {
